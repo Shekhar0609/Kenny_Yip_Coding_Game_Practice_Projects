@@ -37,3 +37,17 @@ body {
   width: 180px;
   background: url("../images/pipe.png") no-repeat center center/cover;
 }
+
+#board div img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  cursor: pointer;
+
+  user-select: none;
+  -moz-user-select: none;
+  -moz-user-drag: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
