@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: url("../images/mario-bg.jpg") no-repeat center center/cover fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.heading-score {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#board {
+  margin-top: 20px;
+  background: url("../images/soil.png") no-repeat center center/cover fixed;
+  height: 540px;
+  width: 540px;
+  border-radius: 20px;
+  border: #fff solid 5px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#board div {
+  height: 180px;
+  width: 180px;
+  background: url("../images/pipe.png") no-repeat center center/cover;
+}
